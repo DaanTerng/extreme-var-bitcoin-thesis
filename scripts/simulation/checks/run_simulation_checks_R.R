@@ -1,3 +1,17 @@
+# Includes reference estimator functions adapted from EXRQ 1.0.
+# Original package author: Huixia Judy Wang.
+# Source: https://github.com/cran/EXRQ
+#
+# This R file is distributed under GPL-3.
+# See LICENSE-EXRQ at the repository root.
+#
+# Adapted by Wing Fong Daan Terng for shared-data comparisons
+# with the Python implementation. Added data loading,
+# comparison settings, diagnostic printing, and CSV export.
+# Reference transformation scores use residuals rounded
+# to 10 decimal places.
+# Modification date: 2026-10-12.
+
 # Compare the R reference estimators with Python using shared simulated data.
 # Runs 2Stage and 3Stage on one saved dataset per case and exports predictions.
 # Estimator functions are adapted from Wang and Li's (2013) reference code.
